@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BarberBookingApp</string>
+    <string name="FACEBOOK_APP_ID">344841909496119</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">a082a64d86e1792e10f57127e287abcb</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="address_bullet">\u2022 Address:</string>
+    <string name="time_bullet">\u2022 Time:</string>
+    <string name="stylelist_bullet">\u2022 Stylelist:</string>
+    <string name="bullet">\u2022</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

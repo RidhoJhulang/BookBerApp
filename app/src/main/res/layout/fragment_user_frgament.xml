@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/homeBackground"
+    tools:context=".Fragments.UserFrgament">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PROFILE"
+            android:layout_marginLeft="150dp"
+            android:textSize="18sp"
+            android:layout_gravity="bottom"
+            android:fontFamily="@font/bellerose"/>
+
+
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/view_account"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_account_circle_black_24dp"/>
+
+
+    <LinearLayout
+        android:layout_below="@id/view_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/bellerose"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:text="Nama :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:layout_gravity="bottom"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bellerose"
+                android:text="Ridho Jhulang"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@font/bellerose"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:text="Phone :"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/bellerose"
+                android:text="081232894725"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/sign_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:text="Logout"/>
+
+</RelativeLayout>

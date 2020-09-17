@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLogin"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="174dp"
+        android:layout_height="187dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/txt_bb"
+        android:src="@drawable/logo_apl"
+        />
+
+    <TextView
+        android:id="@+id/txt_bb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Barber Booking"
+        android:textSize="25sp"
+        android:fontFamily="@font/bellerose"
+        android:textColor="#ffff"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorButton"
+        android:text="Sign In"
+        android:paddingBottom="10dp"
+        android:textColor="@android:color/white"
+        android:fontFamily="@font/bellerose"
+        android:layout_centerInParent="true"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/fui_auth_method_button_drawablePadding"
+        android:textAlignment="center" />
+<!--    <TextView-->
+<!--        android:id="@+id/txt_skip"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:textSize="22sp"-->
+<!--        android:fontFamily="@font/bellerose"-->
+<!--        android:text="Just Skip"-->
+<!--        android:textColor="#ffff"-->
+<!--        />-->
+
+</RelativeLayout>

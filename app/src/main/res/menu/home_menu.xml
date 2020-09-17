@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_shopping"
+        android:icon="@drawable/ic_store_black_24dp"
+        android:title="Shopping"
+        />
+    <item android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home"
+        />
+    <item android:id="@+id/action_user"
+        android:icon="@drawable/ic_man_user"
+        android:title="User "
+        />
+</menu>
